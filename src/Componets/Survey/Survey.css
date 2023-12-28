@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 20px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+.form-heading {
+  /* margin-top: 50px; */
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.form-group {
+  /* display: flex; */
+  margin-bottom: 20px;
+  padding: 18px;
+  background-color: white;
+  /* border-radius: 10px; */
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 60%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 4px;
+  background-color: transparent;
+}
+input[type="radio"] {
+  display: flex;
+  flex-direction: row;
+}
+
+.gender-group {
+  display: flex;
+  margin: 15px 5px;
+}
+.radio-label {
+  margin-left: 5px;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (min-width: 600px) {
+  .container {
+    max-width: 600px;
+  }
+}
